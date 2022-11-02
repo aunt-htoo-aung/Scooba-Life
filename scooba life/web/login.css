@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navigation bar start */
+
+.nav {
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1vh;
+}
+
+.menu {
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-left: auto;
+}
+
+.nav a {
+    padding: 1em;
+    font-size: 20px;
+    color: #8abcd7;
+    transition: 0.3s;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #6133a7;
+    font-size: x-large;
+}
+
+.login {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Navigation Bar end */
+.title h1 {
+    font-size: 3em;
+    margin: 3%;
+    margin-bottom: 0;
+    color: #8abcd7;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 3%;
+    margin-bottom: 0;
+    color: #8abcd7;
+}
+
+.table,
+.loginwith {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.loginwith {
+    width: 40%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #f23d4e;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px;
+}
+
+input,
+textarea {
+    width: 40vmax;
+    margin: 1%;
+}
+
+input {
+    height: 2vmax;
+}
+
+.loginwith a {
+    text-decoration: none;
+    padding: 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Footer start */
+footer {
+    height: 125px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.socialmedia img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.store img {
+    display: flex;
+    width: 125px;
+    float: right;
+    margin-right: 20px;
+}
+
+/* Footer end */

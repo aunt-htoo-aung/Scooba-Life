@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navigation bar start */
+
+.nav {
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1vh;
+}
+
+.menu {
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-left: auto;
+}
+
+.nav a {
+    padding: 1em;
+    font-size: 20px;
+    color: #8abcd7;
+    transition: 0.3s;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #6133a7;
+    font-size: x-large;
+}
+
+.login {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Navigation Bar end */
+
+.course {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.course div {
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+
+.course div h1 {
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+
+.course div:hover {
+    font-size: 2em;
+    color: #fff;
+    transform: translateY(-10px);
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px;
+}
+
+div button {
+    padding: 10px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    background-image: url(../image/image10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    background-image: url(../image/image12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    background-image: url(../image/image9.jpg);
+    background-size: cover;
+}
+
+/* Footer start */
+footer {
+    height: 125px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.socialmedia img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.store img {
+    display: flex;
+    width: 125px;
+    float: right;
+    margin-right: 20px;
+}
+
+/* Footer end */
